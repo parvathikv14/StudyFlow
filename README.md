@@ -124,3 +124,5 @@ No GitHub repository or hosted URL has been created or verified. Publishing and 
 ## Security and privacy
 
 Passwords are hashed with bcryptjs and are never returned by the API. JWT secrets and MongoDB credentials are server-only. The API uses Helmet, configured CORS, a small JSON body limit, authentication rate limiting, input checks, and per-user resource queries. The browser currently stores the access token in localStorage, which is practical for this student project but increases exposure if a cross-site scripting flaw is introduced; a production system should consider secure, HttpOnly cookies and CSRF protection. Use HTTPS in production.
+#   S t u d y F l o w  
+ 
